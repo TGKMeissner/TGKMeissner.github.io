@@ -1,10 +1,10 @@
 ---
-title: "Thomas Meissner"
+title: Thomas Meissner
 image: profile.png
 about:
   id: hero-heading
-  template: trestles
-  image-shape: rectangle
+  template: broadside
+  image-shape: rounded
   links:
     - icon: twitter
       text: Twitter
@@ -15,13 +15,13 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-    - icon: email
+    - icon: mail
       text: meissnet {at} gmail.com 
 ---
 
-::: {#hero-heading}
 
-# Welcome!
+::: {#hero-heading} 
+## Welcome!
 
 I am an Assistant Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.
 

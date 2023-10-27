@@ -5,8 +5,10 @@ project:
   
   
 website:
+  favicon: favicon.ico
   page-navigation: true
   title: "Thomas Meissner"
+  google-analytics: "G-FYBTK6PL4T"
 
   navbar:
     right:
@@ -28,7 +30,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    head-includes:
-      - '<link rel="icon" type="image/x-icon" href="favicon.ico">'
+    
 
 
