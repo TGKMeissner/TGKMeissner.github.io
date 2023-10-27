@@ -1,12 +1,12 @@
 ---
-title: "Author"
+title: "Thomas Meissner"
 image: profile.png
 about:
   id: hero-heading
   template: trestles
   image-shape: rectangle
   links:
-    - icon: twitter-x
+    - icon: twitter
       text: Twitter
       href: https://twitter.com/tgkmeissner
     - icon: linkedin
@@ -15,6 +15,8 @@ about:
     - icon: github
       text: Github
       href: https://github.com
+    - icon: email
+      text: meissnet {at} gmail.com 
 ---
 
 ::: {#hero-heading}

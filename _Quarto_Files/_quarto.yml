@@ -6,7 +6,7 @@ project:
   
 website:
   page-navigation: true
-  #title: "Hello :)"
+  title: "Thomas Meissner"
 
   navbar:
     right:
@@ -17,11 +17,18 @@ website:
       - text: "Research"
         href: research/index.qmd
 
+      - text: "Talks"
+        href: talks/index.qmd
+
+      - text: "Blog"
+        href: blog.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    head-includes:
+      - '<link rel="icon" type="image/x-icon" href="favicon.ico">'
 
 
