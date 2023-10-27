@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: ..
+  execute-dir: project
+  
+  
+website:
+  page-navigation: true
+  #title: "Hello :)"
+
+  navbar:
+    right:
+    
+      - text: "About me"
+        href: index.qmd
+        
+      - text: "Research"
+        href: research/index.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+

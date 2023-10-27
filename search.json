@@ -1,49 +1,91 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Read more about Quarto blogs here.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "Author",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \n\nWelcome!\nI am an Assistant Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.\nMy primary research interest lies in the fields of experimental and behavioral economics. I am particularly interested in how people make economic decisions that involve risk or intertemporal tradeoffs, such as behavior on financial markets or individual borrowing and saving decisions. To answer these questions I use theory-based laboratory experiments but also large-scale, representative studies to structurally estimate the effect of economic preferences on economic decisions.\nTogether with Peter Werner, I organize the yearly M-BEES and M-BEPS symposia.\nIn 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion. More information on the project can be found here."
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a researcher at University of Oslo.\nMy work is about Electronic Health Records.\n\n\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\n\n\n\nI have developed X R packages, published Y papers."
   },
   {
-    "objectID": "projects/project_2/index.html",
-    "href": "projects/project_2/index.html",
-    "title": "project_2",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Author",
     "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+    "text": "University of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Author",
     "section": "",
-    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I have developed X R packages, published Y papers."
   },
   {
-    "objectID": "projects/index.html#table-listing",
-    "href": "projects/index.html#table-listing",
-    "title": "Projects",
-    "section": "Table listing",
-    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/pkg_1/index.html",
-    "href": "projects/pkg_1/index.html",
-    "title": "pkg_1",
+    "objectID": "blog/post-with-code/index.html",
+    "href": "blog/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This package does this."
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "projects/project_1/index.html",
-    "href": "projects/project_1/index.html",
+    "objectID": "talks/talk_1/index.html",
+    "href": "talks/talk_1/index.html",
+    "title": "Building Website in R: Step by Step Introduction to blogdown",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "research/project_1/index.html",
+    "href": "research/project_1/index.html",
     "title": "project_1",
     "section": "",
     "text": "In this project I use EHR to explore the hospital transfers."
   },
   {
-    "objectID": "projects/pkg_2/index.html",
-    "href": "projects/pkg_2/index.html",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#grid-listing",
+    "href": "research/index.html#grid-listing",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#table-listing",
+    "href": "research/index.html#table-listing",
+    "title": "Projects",
+    "section": "Table listing",
+    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/project_2/index.html",
+    "href": "research/project_2/index.html",
+    "title": "project_2",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "research/pkg_1/index.html",
+    "href": "research/pkg_1/index.html",
+    "title": "pkg_1",
+    "section": "",
+    "text": "This package does this."
+  },
+  {
+    "objectID": "research/pkg_2/index.html",
+    "href": "research/pkg_2/index.html",
     "title": "pkg_2",
     "section": "",
     "text": "This package does this."
@@ -56,6 +98,13 @@
     "text": "Talk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "talks/index.html#rstats",
+    "href": "talks/index.html#rstats",
+    "title": "Talks",
+    "section": "",
+    "text": "Talk at Oslo UseR meetup\n\n\n\n\n\n\nApr 2, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "talks/index.html#electronic-health-records",
     "href": "talks/index.html#electronic-health-records",
     "title": "Talks",
@@ -63,18 +112,11 @@
     "text": "Electronic Health Records\n\n\n\n\n  \n\n\n\n\nLearning from Hospital EHR data with R\n\n\n\n\n\nA 15 minutes introduction to hospital EHR data\n\n\n\n\n\n\nOct 28, 2019\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "talks/talk_1/index.html",
-    "href": "talks/talk_1/index.html",
-    "title": "Building Website in R: Step by Step Introduction to blogdown",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Author",
     "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "blog/post-with-code/index.html",
-    "href": "blog/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \n\nWelcome!\nI am an Assistant Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.\nMy primary research interest lies in the fields of experimental and behavioral economics. I am particularly interested in how people make economic decisions that involve risk or intertemporal tradeoffs, such as behavior on financial markets or individual borrowing and saving decisions. To answer these questions I use theory-based laboratory experiments but also large-scale, representative studies to structurally estimate the effect of economic preferences on economic decisions.\nTogether with Peter Werner, I organize the yearly M-BEES and M-BEPS symposia.\nIn 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion. More information on the project can be found here."
   },
   {
     "objectID": "blog/welcome/index.html",
@@ -84,24 +126,10 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Author",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a researcher at University of Oslo.\nMy work is about Electronic Health Records.\n\n\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\n\n\n\nI have developed X R packages, published Y papers."
-  },
-  {
     "objectID": "about_template.html",
     "href": "about_template.html",
     "title": "About this template",
     "section": "",
     "text": "About this template\n\n\n\nThis page contains some elaborated background information about your workshop, or the instructors.\n\n\nThis is to demonstrate how to make a drop-down page from the navigation bar."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Read more about Quarto blogs here.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\n\n\nOct 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

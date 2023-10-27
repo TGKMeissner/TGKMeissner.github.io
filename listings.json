@@ -1,11 +1,18 @@
 [
   {
-    "listing": "/projects/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/projects/project_1/index.html",
-      "/projects/project_2/index.html",
-      "/projects/pkg_1/index.html",
-      "/projects/pkg_2/index.html"
+      "/blog/post-with-code/index.html",
+      "/blog/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/project_1/index.html",
+      "/research/project_2/index.html",
+      "/research/pkg_1/index.html",
+      "/research/pkg_2/index.html"
     ]
   },
   {
@@ -13,13 +20,6 @@
     "items": [
       "/talks/talk_1/index.html",
       "/talks/talk_2/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/post-with-code/index.html",
-      "/blog/welcome/index.html"
     ]
   }
 ]
