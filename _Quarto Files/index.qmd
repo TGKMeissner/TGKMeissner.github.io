@@ -6,9 +6,9 @@ about:
   template: trestles
   image-shape: rectangle
   links:
-    - icon: twitter
+    - icon: twitter-x
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/tgkmeissner
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
@@ -19,12 +19,15 @@ about:
 
 ::: {#hero-heading}
 
-Hello, I am *Author*.
+# Welcome!
 
-Feel free to edit the text and layout to make this website your own!
+I am an Assistant Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.
 
-This is a template with `side navigation`. Read more about website navigation [here](https://quarto.org/docs/websites/website-navigation.html).
+My primary research interest lies in the fields of experimental and behavioral economics. I am particularly interested in how people make economic decisions that involve risk or intertemporal tradeoffs, such as behavior on financial markets or individual borrowing and saving decisions. To answer these questions I use theory-based laboratory experiments but also large-scale, representative studies to structurally estimate the effect of economic preferences on economic decisions.
 
-In this template you can find examples of using `listing` (grid, table, default) in **Projects, Talks, Blog**. Read more about lists [here](https://quarto.org/docs/websites/website-listings.html).
+Together with Peter Werner, I organize the yearly M-BEES and M-BEPS symposia.
+
+In 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion.  More information on the project can be found here. 
+
 
 :::
