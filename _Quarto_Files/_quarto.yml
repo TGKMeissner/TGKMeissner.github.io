@@ -5,7 +5,7 @@ project:
   
   
 website:
-  favicon: favicon.ico
+  favicon: profil.png
   page-navigation: true
   title: "Thomas Meissner"
   google-analytics:
