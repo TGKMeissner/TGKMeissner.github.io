@@ -10,6 +10,7 @@ website:
   title: "Thomas Meissner"
   google-analytics:
     tracking-id: "G-WEL4YD4BS5"
+    anonymize-ip: false
 
   navbar:
     right:
