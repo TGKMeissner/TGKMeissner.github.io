@@ -42,8 +42,50 @@
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "research/project_1/index.html",
-    "href": "research/project_1/index.html",
+    "objectID": "research/old/pkg_2/index.html",
+    "href": "research/old/pkg_2/index.html",
+    "title": "pkg_2",
+    "section": "",
+    "text": "This package does this."
+  },
+  {
+    "objectID": "research/old/pkg_1/index.html",
+    "href": "research/old/pkg_1/index.html",
+    "title": "pkg_1",
+    "section": "",
+    "text": "This package does this."
+  },
+  {
+    "objectID": "research/old/index copy.html",
+    "href": "research/old/index copy.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/old/index copy.html#grid-listing",
+    "href": "research/old/index copy.html#grid-listing",
+    "title": "Projects",
+    "section": "",
+    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/old/index copy.html#table-listing",
+    "href": "research/old/index copy.html#table-listing",
+    "title": "Projects",
+    "section": "Table listing",
+    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/old/project_2/index.html",
+    "href": "research/old/project_2/index.html",
+    "title": "project_2",
+    "section": "",
+    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
+  },
+  {
+    "objectID": "research/old/project_1/index.html",
+    "href": "research/old/project_1/index.html",
     "title": "project_1",
     "section": "",
     "text": "In this project I use EHR to explore the hospital transfers."
@@ -51,44 +93,9 @@
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
-    "title": "Projects",
+    "title": "Research",
     "section": "",
-    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#grid-listing",
-    "href": "research/index.html#grid-listing",
-    "title": "Projects",
-    "section": "",
-    "text": "This is an example of grid listing. You can specify the content in the yaml header in the .qmd file.\nIt is convenient to use id to link to multiple folders.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/index.html#table-listing",
-    "href": "research/index.html#table-listing",
-    "title": "Projects",
-    "section": "Table listing",
-    "text": "Table listing\nThis is an example of table listing.\n\nPackages\n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\npkg_1\n\n\n\n\n\n\n\npkg_2\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/project_2/index.html",
-    "href": "research/project_2/index.html",
-    "title": "project_2",
-    "section": "",
-    "text": "In this project I work on Machine Learning methods to predict in-hospital mortality."
-  },
-  {
-    "objectID": "research/pkg_1/index.html",
-    "href": "research/pkg_1/index.html",
-    "title": "pkg_1",
-    "section": "",
-    "text": "This package does this."
-  },
-  {
-    "objectID": "research/pkg_2/index.html",
-    "href": "research/pkg_2/index.html",
-    "title": "pkg_2",
-    "section": "",
-    "text": "This package does this."
+    "text": "Publications\nMeissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): “Individual characteristics associated with risk and time preferences - A multi-country representative survey”, Journal of Risk and Uncertainty\nSchleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): “Making the factors underlying the implicit discount rate tangible”, with Joachim Schleich, Xavier Gassmann and Corinne Faure. Energy Policy: 177, 113563\nMeissner, T. and Pfeiffer, P. (2022) “Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty”, Journal of Economic Theory: 200, 105379.\nAhrens, S., Bosch-Rosa, C. and Meissner T. (2022) “Intertemporal Consumption and Debt Aversion: A Replication and Extension”, Journal of the Economic Science Association\nSchleich, J., Faure, C. and Meissner, T. (2021) “Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion”, Energy Policy: 149, 112025.\nBosch-Rosa, C. and Meissner, T. (2020) “The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses”, Experimental Economics: 23, 1129–1147\nSchleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) “A large-scale test of the effects of time discounting, risk aversion, loss aversion and present bias on household adoption of energy efficient technologies.” Energy Economics: 80, 377-393.\nBosch-Rosa, C., Meissner, T. and Bosch-Domenech, A. (2018): “Cognitive Bubbles”, Experimental Economics: 21, 1, 132-153.\nMeissner, T. and Rostam-Afschar, D. (2017): “Learning Ricardian Equivalence.” Journal of Economic Dynamics and Control: 82, 273-288.\nMeissner, T. (2016). “Intertemporal consumption and debt aversion: an experimental study.” Experimental Economics: 19, 2, 281-298.\nSchleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): “Making the Implicit Explicit: A Look Inside Implicit Discount Rates.” Energy Policy: 97, 321-331. … [Continue with your list]\n\n\n\n\nWorking Papers\n“Debt Aversion: Theory and Measurement”, with David Albrecht. [Replication Package]\n“The debt aversion survey module: An experimentally validated tool to measure individual debt aversion”, with David Albrecht. [Replication Package]\n\n\nWork in Progress\n“Does the Real Interest Rate Really Matter for Consumption?” with Ciril Bosch-Rosa and Baptiste Massenot"
   },
   {
     "objectID": "talks/index.html",

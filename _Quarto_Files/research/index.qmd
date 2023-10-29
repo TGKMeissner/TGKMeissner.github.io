@@ -1,54 +1,50 @@
 ---
-title: "Projects"
-description: |
-  This page provides a mix of two types of listing, grouped by `id`.
-listing:
-  - id: ehr
-    max-description-length: 500
-    image-height: 150px
-    fields: [image, title, description]
-    contents: 
-      - project_1
-      - project_2
-    type: grid
-    grid-item-border: false
-    
-  - id: packages
-    max-description-length: 80
-    image-height: 250px
-    fields: [title, description]
-    contents: 
-      - pkg_1
-      - pkg_2
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    filter-ui: false
-    
+title: "Research"
 ---
 
 
+<div style="display: flex; justify-content: space-between;">
 
-## Grid listing
+<!-- Publications Column -->
+<div style="flex: 1; padding-right: 20px;">
+### Publications
 
-This is an example of **grid** listing. You can specify the content in the `yaml` header in the `.qmd` file. 
+Meissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): "Individual characteristics associated with risk and time preferences - A multi-country representative survey", Journal of Risk and Uncertainty
 
-It is convenient to use `id` to link to multiple folders. 
+Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): "Making the factors underlying the implicit discount rate tangible", with Joachim Schleich, Xavier Gassmann and Corinne Faure. Energy Policy: 177, 113563
 
-::: {#ehr}
-:::
+Meissner, T. and Pfeiffer, P. (2022) “Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty”,  Journal of Economic Theory: 200, 105379.
 
+Ahrens, S., Bosch-Rosa, C. and Meissner T. (2022) "Intertemporal Consumption and Debt Aversion: A Replication and Extension", Journal of the Economic Science Association
 
-## Table listing
+Schleich, J., Faure, C. and Meissner, T. (2021) "Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion", Energy Policy: 149, 112025. 
 
-This is an example of **table** listing. 
+Bosch-Rosa, C. and Meissner, T. (2020) "The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses", Experimental Economics: 23, 1129–1147
 
-### Packages 
+Schleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) "A large-scale test of the effects of time discounting, risk aversion, loss aversion and present bias on household adoption of energy efficient technologies." Energy Economics: 80, 377-393.
 
-::: {#packages}
-:::
+Bosch-Rosa, C., Meissner, T. and Bosch-Domenech, A. (2018): “Cognitive Bubbles”, Experimental Economics: 21, 1, 132-153. 
 
+Meissner, T. and Rostam-Afschar, D. (2017): “Learning Ricardian Equivalence.” Journal of Economic Dynamics and Control: 82, 273-288. 
 
+Meissner, T. (2016). “Intertemporal consumption and debt aversion: an experimental study.” Experimental Economics: 19, 2, 281-298.   
 
+Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): “Making the Implicit Explicit: A Look Inside Implicit Discount Rates.” Energy Policy: 97, 321-331. 
+... [Continue with your list]
+</div>
 
+<!-- Working Papers Column -->
+<div style="flex: 1; padding-left: 20px;">
+### Working Papers
 
+"Debt Aversion: Theory and Measurement", with David Albrecht. [Replication Package]
+
+"The debt aversion survey module: An experimentally validated tool to measure individual debt aversion", with David Albrecht. [Replication Package]
+
+### Work in Progress
+
+"Does the Real Interest Rate Really Matter for Consumption?" with Ciril Bosch-Rosa and Baptiste Massenot
+
+</div>
+
+</div>
