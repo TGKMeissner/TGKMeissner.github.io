@@ -14,7 +14,7 @@ about:
       href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/TGKMeissner
     - icon: mail
       text: meissnet {at} gmail.com 
 ---
