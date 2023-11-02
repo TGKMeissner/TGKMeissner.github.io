@@ -12,9 +12,9 @@ Meissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): ["Individual char
 
 Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): ["Making the factors underlying the implicit discount rate tangible"](https://doi.org/10.1016/j.enpol.2023.113563), with Joachim Schleich, Xavier Gassmann and Corinne Faure. **Energy Policy**: 177, 113563
 
-Meissner, T. and Pfeiffer, P. (2022) "Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty", Journal of Economic Theory: 200, 105379.
+Meissner, T. and Pfeiffer, P. (2022) ["Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty"](https://doi.org/10.1016/j.jet.2021.105379), **Journal of Economic Theory**: 200, 105379.
 
-Ahrens, S., Bosch-Rosa, C. and Meissner T. (2022) "Intertemporal Consumption and Debt Aversion: A Replication and Extension", Journal of the Economic Science Association
+Ahrens, S., Bosch-Rosa, C. and Meissner T. (2022) ["Intertemporal Consumption and Debt Aversion: A Replication and Extension"](https://link.springer.com/content/pdf/10.1007/s40881-022-00118-y.pdf), **Journal of the Economic Science Association**
 
 Schleich, J., Faure, C. and Meissner, T. (2021) "Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion", Energy Policy: 149, 112025.
 
