@@ -10,7 +10,7 @@ title: "Research"
 
 Meissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): ["Individual characteristics associated with risk and time preferences - A multi-country representative survey"](https://link.springer.com/content/pdf/10.1007/s11166-022-09383-y.pdf), **Journal of Risk and Uncertainty**
 
-Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): ["Making the factors underlying the implicit discount rate tangible"](https://doi.org/10.1016/j.enpol.2023.113563), with Joachim Schleich, Xavier Gassmann and Corinne Faure. **Energy Policy**: 177, 113563
+Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): ["Making the factors underlying the implicit discount rate tangible"](https://doi.org/10.1016/j.enpol.2023.113563) **Energy Policy**: 177, 113563
 
 Meissner, T. and Pfeiffer, P. (2022) ["Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty"](https://doi.org/10.1016/j.jet.2021.105379), **Journal of Economic Theory**: 200, 105379.
 
