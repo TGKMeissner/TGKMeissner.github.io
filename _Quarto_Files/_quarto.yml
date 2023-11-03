@@ -24,8 +24,8 @@ website:
       - text: "Talks"
         href: talks/index.qmd
 
-      - text: "Blog"
-        href: blog.qmd
+      - text: "M-BEES & M-BEPS"
+        href: https://sites.google.com/view/mbees-mbeps/home
 
 format:
   html:
