@@ -6,12 +6,12 @@ about:
   template: broadside
   image-shape: rounded
   links:
-    - icon: twitter-x
+    - icon: twitter
       text: Twitter
       href: https://twitter.com/tgkmeissner
-   # - icon: linkedin
-    #  text: LinkedIn
-    #  href: https://linkedin.com
+    - icon: bsky
+      text: BlueSky
+      href: https://bsky.app/profile/thomasmeissner.bsky.social 
     - icon: github
       text: Github
       href: https://github.com/TGKMeissner
