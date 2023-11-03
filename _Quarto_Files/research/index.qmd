@@ -36,7 +36,6 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ::: {style="flex: 1; padding-left: 20px;"}
 ### Working Papers
 
-<span style="color:red;">[Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea)</span>
 
 ["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with David Albrecht. [Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea)
 
