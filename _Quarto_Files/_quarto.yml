@@ -7,7 +7,7 @@ project:
 website:
   favicon: profil.png
   page-navigation: true
-  title: "Thomas Meissner"
+  #title: "Thomas Meissner"
   google-analytics:
     tracking-id: "G-WEL4YD4BS5"
     anonymize-ip: false
