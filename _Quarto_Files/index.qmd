@@ -6,7 +6,7 @@ about:
   template: broadside
   image-shape: rounded
   links:
-    - icon: twitter
+    - icon: twitter-x
       text: Twitter
       href: https://twitter.com/tgkmeissner
    # - icon: linkedin
@@ -15,7 +15,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/TGKMeissner
-    - icon: email
+    - icon: envelope
       text: meissnet {at} gmail.com 
 ---
 
@@ -27,7 +27,7 @@ I am an Assistant Professor of Economics at the Department of Microeconomics and
 
 My primary research interest lies in the fields of experimental and behavioral economics. I am particularly interested in how people make economic decisions that involve risk or intertemporal tradeoffs, such as behavior on financial markets or individual borrowing and saving decisions. To answer these questions I use theory-based laboratory experiments but also large-scale, representative studies to structurally estimate the effect of economic preferences on economic decisions.
 
-Together with Peter Werner, I organize the yearly M-BEES and M-BEPS symposia.
+Together with Peter Werner, I organize the yearly [M-BEES and M-BEPS](https://sites.google.com/view/mbees-mbeps/home) symposia.
 
 In 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion.  More information on the project can be found here. 
 
