@@ -16,19 +16,19 @@ Meissner, T. and Pfeiffer, P. (2022) ["Measuring Preferences Over the Temporal R
 
 Ahrens, S., Bosch-Rosa, C. and Meissner T. (2022) ["Intertemporal Consumption and Debt Aversion: A Replication and Extension"](https://link.springer.com/content/pdf/10.1007/s40881-022-00118-y.pdf), **Journal of the Economic Science Association**
 
-Schleich, J., Faure, C. and Meissner, T. (2021) "Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion", Energy Policy: 149, 112025.
+Schleich, J., Faure, C. and Meissner, T. (2021) ["Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion"](https://www.sciencedirect.com/science/article/pii/S0301421520307369), **Energy Policy**: 149, 112025.
 
-Bosch-Rosa, C. and Meissner, T. (2020) "The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses", Experimental Economics: 23, 1129--1147
+Bosch-Rosa, C. and Meissner, T. (2020) ["The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses"](http://doi.org/10.1007/s10683-020-09642-2), **Experimental Economics**: 23, 1129--1147
 
-Schleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) "A large-scale test of the effects of time discounting, risk aversion, loss aversion and present bias on household adoption of energy efficient technologies." Energy Economics: 80, 377-393.
+Schleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) ["A large-scale test of the effects of time discounting, risk aversion, loss aversion and present bias on household adoption of energy efficient technologies."](https://doi.org/10.1016/j.eneco.2018.12.018) **Energy Economics**: 80, 377-393.
 
-Bosch-Rosa, C., Meissner, T. and Bosch-Domenech, A. (2018): "Cognitive Bubbles", Experimental Economics: 21, 1, 132-153.
+Bosch-Rosa, C., Meissner, T. and Bosch-Domenech, A. (2018): ["Cognitive Bubbles"](https://link.springer.com/article/10.1007/s10683-017-9529-0), **Experimental Economics**: 21, 1, 132-153.
 
-Meissner, T. and Rostam-Afschar, D. (2017): "Learning Ricardian Equivalence." Journal of Economic Dynamics and Control: 82, 273-288.
+Meissner, T. and Rostam-Afschar, D. (2017): ["Learning Ricardian Equivalence."](https://www.sciencedirect.com/science/article/pii/S0165188917301495) **Journal of Economic Dynamics and Control**: 82, 273-288.
 
-Meissner, T. (2016). "Intertemporal consumption and debt aversion: an experimental study." Experimental Economics: 19, 2, 281-298.
+Meissner, T. (2016). ["Intertemporal consumption and debt aversion: an experimental study."](https://link.springer.com/article/10.1007/s10683-015-9437-0) **Experimental Economics**: 19, 2, 281-298.
 
-Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): "Making the Implicit Explicit: A Look Inside Implicit Discount Rates." Energy Policy: 97, 321-331. ... \[Continue with your list\]
+Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Implicit Explicit: A Look Inside Implicit Discount Rates."](https://www.sciencedirect.com/science/article/pii/S0301421516304050) **Energy Policy**: 97, 321-331. 
 :::
 
 <!-- Working Papers Column -->
