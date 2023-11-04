@@ -15,8 +15,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/TGKMeissner
+    - icon: Google Scholar 
+      href: https://scholar.google.de/citations?user=Ja0JT1oAAAAJ&hl=en 
+      text: Google Scholar
     - icon: envelope
       text: meissnet {at} gmail.com 
+
 ---
 
 

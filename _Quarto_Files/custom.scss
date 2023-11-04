@@ -1,12 +1,12 @@
 /*-- scss:rules --*/
 
-// Black link style
+// Moderate dark grey link style
 a.black-link {
-  color: black;
+  color: #575757;  // Moderate dark grey as the default
   text-decoration: none;
 
-  // Hover effect (changing to dark grey)
+  // Hover effect (changing to the default dark grey)
   &:hover {
-    color: darkgray;
+    color: darkgray;  // Default dark grey color on hover
   }
 }

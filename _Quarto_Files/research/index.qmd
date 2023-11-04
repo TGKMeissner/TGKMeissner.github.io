@@ -12,7 +12,7 @@ Meissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): ["Individual char
 
 Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): ["Making the factors underlying the implicit discount rate tangible"](https://doi.org/10.1016/j.enpol.2023.113563) **Energy Policy**: 177, 113563
 
-Meissner, T. and Pfeiffer, P. (2022) ["Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty"](https://doi.org/10.1016/j.jet.2021.105379), **Journal of Economic Theory**: 200, 105379.
+Meissner, T. and [Pfeiffer, P.](https://sites.google.com/view/philipppfeiffer/){.black-link} (2022) ["Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty"](https://doi.org/10.1016/j.jet.2021.105379), **Journal of Economic Theory**: 200, 105379.
 
 Ahrens, S., [Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link} and Meissner T. (2022) ["Intertemporal Consumption and Debt Aversion: A Replication and Extension"](https://link.springer.com/content/pdf/10.1007/s40881-022-00118-y.pdf), **Journal of the Economic Science Association**
 
@@ -24,7 +24,7 @@ Schleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) ["A large-scale te
 
 [Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link}, Meissner, T. and Bosch-Domenech, A. (2018): ["Cognitive Bubbles"](https://link.springer.com/article/10.1007/s10683-017-9529-0), **Experimental Economics**: 21, 1, 132-153.
 
-Meissner, T. and Rostam-Afschar, D. (2017): ["Learning Ricardian Equivalence."](https://www.sciencedirect.com/science/article/pii/S0165188917301495) **Journal of Economic Dynamics and Control**: 82, 273-288.
+Meissner, T. and [Rostam-Afschar, D.](https://rostam-afschar.de/){.black-link} (2017): ["Learning Ricardian Equivalence."](https://www.sciencedirect.com/science/article/pii/S0165188917301495) **Journal of Economic Dynamics and Control**: 82, 273-288.
 
 Meissner, T. (2016). ["Intertemporal consumption and debt aversion: an experimental study."](https://link.springer.com/article/10.1007/s10683-015-9437-0) **Experimental Economics**: 19, 2, 281-298.
 
@@ -44,7 +44,7 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 
 ### Work in Progress
 
-"Does the Real Interest Rate Really Matter for Consumption?" with Ciril Bosch-Rosa and Baptiste Massenot
+"Does the Real Interest Rate Really Matter for Consumption?" with [Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link} and Baptiste Massenot
 
 "Modafinil increases cognition and risk aversion in healthy human subjects” with Hyemi
 Jin, Matthias Wibral, Anke Sambeth and Arjan Blokland
