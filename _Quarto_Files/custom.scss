@@ -1,0 +1,12 @@
+/*-- scss:rules --*/
+
+// Black link style
+a.black-link {
+  color: black;
+  text-decoration: none;
+
+  // Hover effect (changing to dark grey)
+  &:hover {
+    color: darkgray;
+  }
+}

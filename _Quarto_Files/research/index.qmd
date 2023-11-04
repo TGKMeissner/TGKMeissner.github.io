@@ -14,15 +14,15 @@ Schleich, J., Gassmann, X., Meissner T. and Faure, C. (2023): ["Making the facto
 
 Meissner, T. and Pfeiffer, P. (2022) ["Measuring Preferences Over the Temporal Resolution of Consumption Uncertainty"](https://doi.org/10.1016/j.jet.2021.105379), **Journal of Economic Theory**: 200, 105379.
 
-Ahrens, S., Bosch-Rosa, C. and Meissner T. (2022) ["Intertemporal Consumption and Debt Aversion: A Replication and Extension"](https://link.springer.com/content/pdf/10.1007/s40881-022-00118-y.pdf), **Journal of the Economic Science Association**
+Ahrens, S., [Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link} and Meissner T. (2022) ["Intertemporal Consumption and Debt Aversion: A Replication and Extension"](https://link.springer.com/content/pdf/10.1007/s40881-022-00118-y.pdf), **Journal of the Economic Science Association**
 
 Schleich, J., Faure, C. and Meissner, T. (2021) ["Adoption of retrofit measures among homeowners in EU countries: The effects of access to capital and debt aversion"](https://www.sciencedirect.com/science/article/pii/S0301421520307369), **Energy Policy**: 149, 112025.
 
-Bosch-Rosa, C. and Meissner, T. (2020) ["The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses"](http://doi.org/10.1007/s10683-020-09642-2), **Experimental Economics**: 23, 1129--1147
+[Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link} and Meissner, T. (2020) ["The One Player Guessing Game: A diagnosis on the relationship between equilibrium play, stated beliefs, and best responses"](http://doi.org/10.1007/s10683-020-09642-2), **Experimental Economics**: 23, 1129--1147
 
 Schleich, J., Gassmann, X., Meissner, T. and Faure, C. (2019) ["A large-scale test of the effects of time discounting, risk aversion, loss aversion and present bias on household adoption of energy efficient technologies."](https://doi.org/10.1016/j.eneco.2018.12.018) **Energy Economics**: 80, 377-393.
 
-Bosch-Rosa, C., Meissner, T. and Bosch-Domenech, A. (2018): ["Cognitive Bubbles"](https://link.springer.com/article/10.1007/s10683-017-9529-0), **Experimental Economics**: 21, 1, 132-153.
+[Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link}, Meissner, T. and Bosch-Domenech, A. (2018): ["Cognitive Bubbles"](https://link.springer.com/article/10.1007/s10683-017-9529-0), **Experimental Economics**: 21, 1, 132-153.
 
 Meissner, T. and Rostam-Afschar, D. (2017): ["Learning Ricardian Equivalence."](https://www.sciencedirect.com/science/article/pii/S0165188917301495) **Journal of Economic Dynamics and Control**: 82, 273-288.
 
@@ -37,9 +37,10 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ### Working Papers
 
 
-["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with David Albrecht. [Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea)
+["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with [David Albrecht](https://da-lbrecht.github.io/){.black-link}. [ [Replication Package] ](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
 
-["The debt aversion survey module: An experimentally validated tool to measure individual debt aversion"](https://arxiv.org/pdf/2211.02742.pdf), with David Albrecht. [Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea)
+
+["The debt aversion survey module: An experimentally validated tool to measure individual debt aversion"](https://arxiv.org/pdf/2211.02742.pdf), with [David Albrecht](https://da-lbrecht.github.io/){.black-link}. [ [Replication Package] ](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
 
 ### Work in Progress
 
@@ -49,7 +50,7 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 Jin, Matthias Wibral, Anke Sambeth and Arjan Blokland
 
 “The impact of indoor carbon dioxide on human cognition, behavior and
-metabolic health”, with Stefan Flagner, Guy Plasqui and Steffen K¨unn
+metabolic health”, with Stefan Flagner, Guy Plasqui and Steffen Künn
 
 
 
