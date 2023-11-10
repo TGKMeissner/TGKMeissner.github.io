@@ -2,9 +2,11 @@
 title: Thomas Meissner
 image: profile.png
 about:
-  id: hero-heading
+  #template: broadside
+  #image-shape: rounded
   template: broadside
-  image-shape: rounded
+  #image-width: 14em
+  #image-shape: round
   links:
     - icon: twitter
       text: Twitter
@@ -24,7 +26,7 @@ about:
 ---
 
 
-::: {#hero-heading} 
+
 ## Welcome!
 
 I am an Assistant Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.
@@ -36,4 +38,3 @@ Together with Peter Werner, I organize the yearly [M-BEES and M-BEPS](https://si
 In 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion.  More information on the project can be found here. 
 
 
-:::
