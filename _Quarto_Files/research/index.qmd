@@ -36,6 +36,11 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ::: {style="flex: 1; padding-left: 20px;"}
 ### Working Papers
 
+["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://opus4.kobv.de/opus4-hsog/frontdoor/deliver/index/docId/5604/file/BSoE_DP_0048.pdf), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}
+
+["The impact of indoor carbon dioxide on human cognition, behavior and
+metabolic health"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4837032), with Stefan Flagner, Steffen Künn, Piet Eichholtz, Nils Kok, Rick Kramer, Wouter van Marken-Lichtenbelt, Cynthia Ly and Guy Plasqui
+
 
 ["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with [David Albrecht](https://da-lbrecht.github.io/){.black-link}. [ [Replication Package] ](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
 
@@ -48,9 +53,6 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 
 "Modafinil improves cognition and increases risk taking in healthy human subjects” with Hyemi
 Jin, Matthias Wibral, Anke Sambeth and Arjan Blokland
-
-“The impact of indoor carbon dioxide on human cognition, behavior and
-metabolic health”, with Stefan Flagner, Guy Plasqui and Steffen Künn
 
 
 
