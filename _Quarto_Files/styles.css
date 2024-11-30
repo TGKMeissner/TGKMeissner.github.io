@@ -3,3 +3,21 @@
 h1, h2, h3, h4, h5, h6 {
     color: rgba(133,114,81,1);
 }
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.inner-container {
+    min-width: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 800px;
+    border: none; /* Removes the default border */
+}

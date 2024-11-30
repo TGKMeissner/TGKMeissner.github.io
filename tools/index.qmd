@@ -1,0 +1,9 @@
+---
+title: "Interactive Tools"
+---
+
+## Inflation Expectations Survey Tool
+
+[Open the Interactive Inflation Survey Tool](/interactive/inflation-survey/){.btn .btn-primary target="_blank"}
+
+This tool allows you to explore inflation expectations using an interactive visualization...
