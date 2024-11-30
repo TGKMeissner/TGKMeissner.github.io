@@ -25,14 +25,18 @@ about:
 
 ---
 
-## Welcome!
 
-I am an Associate Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.
+# Welcome!  
 
-My primary research interest lies in the fields of experimental and behavioral economics. I am particularly interested in how people make economic decisions that involve risk or intertemporal tradeoffs, such as behavior on financial markets or individual borrowing and saving decisions. To answer these questions I use theory-based laboratory experiments but also large-scale, representative studies to structurally estimate the effect of economic preferences on economic decisions. Check out my [interactive research tools](/tools) to explore some of these concepts.
+I am Thomas Meissner, an Associate Professor of Economics in the Department of Microeconomics and Public Economics at Maastricht University.  
 
-Together with Peter Werner, I organize the yearly [M-BEES and M-BEPS](https://sites.google.com/view/mbees-mbeps/home) symposia.
+My research focuses on experimental and behavioral economics, with a particular interest in how people make economic decisions involving risk or intertemporal tradeoffs, including behaviors in financial markets and individual borrowing or saving choices. To explore these topics, I combine theory-driven laboratory experiments with large-scale, representative studies, using structural estimation techniques to analyze the impact of economic preferences on decision-making.  
 
-In 2018 I was awarded the Marie Skłodowska-Curie Individual Fellowship for my work on debt aversion.  More information on the project can be found here.
+Additionally, I work on belief elicitation, including a [new method](/tools) for eliciting parametric belief distributions, and have recently begun exploring the darker aspects of human behavior, such as exploitation.  
+
+Together with Peter Werner, I co-organize the annual [M-BEES and M-BEPS](https://sites.google.com/view/mbees-mbeps/home) symposia, which bring together researchers and practitioners in experimental and behavioral economics.  
+
+In 2018, I received the Marie Skłodowska-Curie Individual Fellowship for my research on debt aversion.  
+
 
 
