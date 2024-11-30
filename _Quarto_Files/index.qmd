@@ -28,7 +28,7 @@ about:
 
 # Welcome!  
 
-I am Thomas Meissner, an Associate Professor of Economics in the Department of Microeconomics and Public Economics at Maastricht University.  
+I am Thomas Meissner, an Associate Professor of Economics in the Department of Microeconomics and Public Economics at Maastricht University.
 
 My research focuses on experimental and behavioral economics, with a particular interest in how people make economic decisions involving risk or intertemporal tradeoffs, including behaviors in financial markets and individual borrowing or saving choices. To explore these topics, I combine theory-driven laboratory experiments with large-scale, representative studies, using structural estimation techniques to analyze the impact of economic preferences on decision-making.  
 
