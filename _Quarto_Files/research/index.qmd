@@ -35,7 +35,7 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ::: {style="flex: 1; padding-left: 20px; margin-top: -34px;"}
 ## Working Papers
 
-["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://opus4.kobv.de/opus4-hsog/frontdoor/deliver/index/docId/5604/file/BSoE_DP_0048.pdf), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}
+["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943520), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}
 
 ["The impact of indoor carbon dioxide on human cognition, behavior and
 metabolic health"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4837032), with Stefan Flagner, Steffen Künn, Piet Eichholtz, Nils Kok, Rick Kramer, Wouter van Marken-Lichtenbelt, Cynthia Ly and Guy Plasqui
