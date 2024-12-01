@@ -8,14 +8,13 @@ format:
 ---
 ## Belief Distribution Elicitation Tool
 
-Here you can find our method to elicit parameteric (beta) belief distributions, as described in Gonzalez-Fernandez, Bosch-Rosa and Meissner (2024):"Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations" 
+Here you can find our method to elicit parameteric (beta) belief distributions, as described ["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://opus4.kobv.de/opus4-hsog/frontdoor/deliver/index/docId/5604/file/BSoE_DP_0048.pdf), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}.
 
-- [Read the paper](https://opus4.kobv.de/opus4-hsog/frontdoor/deliver/index/docId/5604/file/BSoE_DP_0048.pdf){target="_blank"} detailing the methodology and findings.
 - [oTree implementation](https://github.com/TGKMeissner/BetaBeliefs.git){target="_blank"} access github repository with the oTree implementation.
 - [Qualtrics implementation](beta.qsf){download="beta.qsf"} download .QSF file.
 
+
+
 ::: {.html}
-<div style="display: flex; justify-content: center; overflow-x: auto; width: 1100px;">
-  <iframe src="beta.html" style="width: 1100px; height: 800px; border: none; margin-left: -225px;"></iframe>
-</div>
+<iframe src="beta.html" style="width: 1100px; height: 800px; border: none; transform: scale(0.9); transform-origin: 0 0;margin-left: -99px;"></iframe>
 :::
