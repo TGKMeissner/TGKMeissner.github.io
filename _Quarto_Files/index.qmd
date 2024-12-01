@@ -4,7 +4,7 @@ image: profile.png
 about:
   #template: broadside
   #image-shape: rounded
-  template: broadside
+  template: trestles
   #image-width: 14em
   #image-shape: round
   links:
@@ -24,9 +24,6 @@ about:
       text: meissnet {at} gmail.com 
 
 ---
-
-
-# Welcome!  
 
 I am an Associate Professor of Economics at the Department of Microeconomics and Public Economics at Maastricht University.
 

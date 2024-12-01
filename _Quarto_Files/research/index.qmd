@@ -1,12 +1,11 @@
 ---
-title: "Research"
 ---
 
 ::: {style="display: flex; justify-content: space-between;"}
 <!-- Publications Column -->
 
-::: {style="flex: 1; padding-right: 20px;"}
-### Publications
+::: {style="flex: 1; padding-right: 20px; margin-top: -34px;"}
+## Publications
 
 Meissner, T., Gassmann, X., Faure, C. and Schleich, J. (2023): ["Individual characteristics associated with risk and time preferences - A multi-country representative survey"](https://link.springer.com/content/pdf/10.1007/s11166-022-09383-y.pdf), **Journal of Risk and Uncertainty**
 
@@ -33,8 +32,8 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 
 <!-- Working Papers Column -->
 
-::: {style="flex: 1; padding-left: 20px;"}
-### Working Papers
+::: {style="flex: 1; padding-left: 20px; margin-top: -34px;"}
+## Working Papers
 
 ["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://opus4.kobv.de/opus4-hsog/frontdoor/deliver/index/docId/5604/file/BSoE_DP_0048.pdf), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}
 
