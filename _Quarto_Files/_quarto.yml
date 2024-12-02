@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: ..
   execute-dir: project
-  title: "tmeissner.com"
+  #title: "tmeissner.com"
   resources:
     - "tools/beta.html"
     - "tools/beta.qsf"
