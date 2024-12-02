@@ -1,4 +1,6 @@
 ---
+title: "Tools"
+title-block-banner: false
 format:
   html:
     include-in-header:

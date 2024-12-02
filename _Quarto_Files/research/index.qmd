@@ -1,4 +1,6 @@
 ---
+title: "Research"
+title-block-banner: false
 ---
 
 ::: {style="display: flex; justify-content: space-between;"}
