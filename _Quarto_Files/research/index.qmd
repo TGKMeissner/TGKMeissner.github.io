@@ -37,10 +37,10 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ::: {style="flex: 1; padding-left: 20px; margin-top: -34px;"}
 ## Working Papers
 
-["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943520), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}
+["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943520), with [Pedro Gonzalez-Fernandez](https://www.pgonzalezfernandez.com/){.black-link} and [Ciril Bosch-Rosa](https://www.boschrosa.com/){.black-link}. [ [oTree/Qualtrics implementation] ](https://tgkmeissner.github.io/tools/){.black-link}. *Revise and Resubmit* at **Journal of Economic Behavior and Organization**
 
 ["The impact of indoor carbon dioxide on human cognition, behavior and
-metabolic health"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4837032), with Stefan Flagner, Steffen Künn, Piet Eichholtz, Nils Kok, Rick Kramer, Wouter van Marken-Lichtenbelt, Cynthia Ly and Guy Plasqui
+metabolic health"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4837032), with Stefan Flagner, Steffen Künn, Piet Eichholtz, Nils Kok, Rick Kramer, Wouter van Marken-Lichtenbelt, Cynthia Ly and Guy Plasqui. *Revise and Resubmit* at **Indoor Environments**
 
 
 ["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with [David Albrecht](https://da-lbrecht.github.io/){.black-link}. [ [Replication Package] ](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
