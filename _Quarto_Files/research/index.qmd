@@ -9,7 +9,7 @@ title-block-banner: false
 ::: {style="flex: 1; padding-right: 20px; margin-top: -34px;"}
 ## Publications
 
-Bosch-Rosa, C., Gonzalez-Fernandez, P. and Meissner, T. (2025)["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://doi.org/10.1016/j.jebo.2025.106947), **Journal of Economic Behavior and Organization**: 106947
+[Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link}, [Gonzalez-Fernandez, P.](https://www.pgonzalezfernandez.com/){.black-link} and Meissner, T. (2025)["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://doi.org/10.1016/j.jebo.2025.106947), **Journal of Economic Behavior and Organization**: 106947
 
 Flagner S., Meissner, T., Künn, S. Eichholtz, P., Kok, N., Kramer, R., van Marken-Lichtenbelt, W., Ly, C. and Guy Plasqui (2025)["The impact of indoor carbon dioxide on human cognition, behavior and metabolic health"](https://doi.org/10.1016/j.indenv.2025.100074) **Indoor Environments**: 100074 
 
