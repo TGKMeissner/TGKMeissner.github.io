@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Beta Distribution Visualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.4/jstat.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script><style id="plotly.js-style-global"></style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        /*overflow-x: hidden; */
+        font-family: 'Roboto', sans-serif;
+    }
+
+        /* Main container holding plot and table side by side */
+        .main-container {
+            display: flex;
+            justify-content: center; /* Center the combined containers */
+            align-items: flex-start;
+            margin: 0 auto 30px;
+            width: 90%;
+            max-width: fit-content; /* Adjust to content width */
+            gap: 10px; /* Small gap between plot and table */
+        }
+
+        /* Styling for when table is hidden (plot centered) */
+        .main-container.centered {
+            justify-content: center;
+            width: 550px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        /* Container for the beta distribution plot */
+        .plot-container {
+            margin: 10px; /* Reduce margin */
+            border: 0.5px solid #ddd;
+            background-color: white;
+            width: 550px;
+            max-width: 550px;
+            height: 400px;
+            padding: 0px;
+            box-sizing: border-box;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Update the table container styling */
+        .table-container {
+            display: inline-block; /* Change from flex to inline-block */
+            width: max-content; /* Fit content width exactly */
+            height: fit-content;
+            overflow-x: auto;
+            padding: 0;
+            margin: 10px 0; /* Reduce margin */
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Update table styling to ensure content determines width */
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: max-content;
+}
+
+
+        /* Ensure cells don't expand unnecessarily */
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            white-space: nowrap;
+            width: max-content;
+        }
+
+        /* Header row styling */
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Alternate row colors for better readability */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Row hover effect */
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Container for sliders and controls */
+        .controls-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Individual slider container styling */
+        .slider-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        /* Slider labels styling */
+        .slider-container label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: normal;
+            color: #333;
+        }
+
+        /* Slider input styling */
+        .slider-container input[type="range"] {
+            width: 500px;
+        }
+
+        /* Value display for sliders */
+        .slider-container span {
+            margin-left: 5px;
+        }
+
+        /* Container for uncertainty slider labels */
+        .slider-labels-bottom {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            margin-top: 5px;
+        }
+
+        /* Uncertainty slider label text */
+        .slider-labels-bottom span {
+            font-size: 12px;
+        }
+
+        /* Hide variance value display */
+        #varianceValue {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="beta-distribution-container">
+        <div class="main-container" id="mainContainer">
+            <!-- Beta Distribution Plot Container -->
+            <div id="plot" class="plot-container js-plotly-plot"><div class="plot-container plotly"><div class="user-select-none svg-container" style="position: relative; width: 548px; height: 398px;"><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="548" height="398" style="background: rgb(255, 255, 255);"><defs id="defs-b32fba"><g class="clips"><clipPath id="clipb32fbaxyplot" class="plotclip"><rect width="488" height="313"></rect></clipPath><clipPath class="axesclip" id="clipb32fbax"><rect x="30" y="0" width="488" height="398"></rect></clipPath><clipPath class="axesclip" id="clipb32fbay"><rect x="0" y="20" width="548" height="313"></rect></clipPath><clipPath class="axesclip" id="clipb32fbaxy"><rect x="30" y="20" width="488" height="313"></rect></clipPath></g><g class="gradients"></g></defs><g class="bglayer"></g><g class="draglayer"><g class="xy"></g></g><g class="layer-below"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="cartesianlayer"><g class="subplot xy"><g class="layer-subplot"><g class="shapelayer"></g><g class="imagelayer"></g></g><g class="gridlayer"><g class="x"><path class="xgrid crisp" transform="translate(34.78,0)" d="M0,20v313" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="xgrid crisp" transform="translate(274,0)" d="M0,20v313" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="xgrid crisp" transform="translate(393.61,0)" d="M0,20v313" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path><path class="xgrid crisp" transform="translate(513.22,0)" d="M0,20v313" style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"></path></g><g class="y"></g></g><g class="zerolinelayer"><path class="xzl zl crisp" transform="translate(154.39,0)" d="M0,20v313" style="stroke: rgb(68, 68, 68); stroke-opacity: 1; stroke-width: 1px;"></path><path class="yzl zl crisp" transform="translate(0,317.35)" d="M30,0h488" style="stroke: rgb(68, 68, 68); stroke-opacity: 1; stroke-width: 1px;"></path></g><path class="xlines-below"></path><path class="ylines-below"></path><g class="overlines-below"></g><g class="xaxislayer-below"></g><g class="yaxislayer-below"></g><g class="overaxes-below"></g><g class="plot" transform="translate(30,20)" clip-path="url('#clipb32fbaxyplot')"><g class="scatterlayer mlayer"><g class="trace scatter trace45c5b5" style="stroke-miterlimit: 2; opacity: 1;"><g class="fills"></g><g class="errorbars"></g><g class="lines"><path class="js-line" d="M0,297.35L243.52,296.73L243.76,236.39L244,15.65L244.24,236.39L244.48,296.73L245.44,297.35L245.67,297.35L488,297.35" style="vector-effect: non-scaling-stroke; fill: none; stroke: rgb(31, 119, 180); stroke-opacity: 1; stroke-width: 2px; opacity: 1;"></path></g><g class="points"></g><g class="text"></g></g></g></g><g class="overplot"></g><path class="xlines-above crisp" d="M0,0" style="fill: none;"></path><path class="ylines-above crisp" d="M0,0" style="fill: none;"></path><g class="overlines-above"></g><g class="xaxislayer-above"><g class="xtick"><text text-anchor="middle" x="0" y="348" data-unformatted="−5" data-math="N" transform="translate(34.78,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">−5</text></g><g class="xtick"><text text-anchor="middle" x="0" y="348" data-unformatted="0" data-math="N" transform="translate(154.39,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">0</text></g><g class="xtick"><text text-anchor="middle" x="0" y="348" data-unformatted="5" data-math="N" transform="translate(274,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">5</text></g><g class="xtick"><text text-anchor="middle" x="0" y="348" data-unformatted="10" data-math="N" transform="translate(393.61,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">10</text></g><g class="xtick"><text text-anchor="middle" x="0" y="348" data-unformatted="15" data-math="N" transform="translate(513.22,0)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 14px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;">15</text></g></g><g class="yaxislayer-above"></g><g class="overaxes-above"></g></g></g><g class="polarlayer"></g><g class="ternarylayer"></g><g class="geolayer"></g><g class="funnelarealayer"></g><g class="pielayer"></g><g class="treemaplayer"></g><g class="sunburstlayer"></g><g class="glimages"></g></svg><div class="gl-container"></div><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="548" height="398"><defs id="topdefs-b32fba"><g class="clips"></g></defs><g class="indicatorlayer"></g><g class="layer-above"><g class="imagelayer"></g><g class="shapelayer"></g></g><g class="infolayer"><g class="g-gtitle"></g><g class="g-xtitle"><text class="xtitle" x="274" y="379" text-anchor="middle" data-unformatted="Inflation (in percent)" data-math="N" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;">Inflation (in percent)</text></g><g class="g-ytitle"></g></g><g class="menulayer"></g><g class="zoomlayer"></g></svg><div class="modebar-container" style="position: absolute; top: 0px; right: 0px; width: 100%;"></div><svg class="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="548" height="398"><g class="hoverlayer"></g></svg></div></div></div>
+            
+            <!-- Probability Table Container -->
+            <div id="tableContainer" class="table-container">
+                <table id="intervalTable">
+                    <thead>
+                        <tr>
+                            <th>The rate of inflation will be... </th>
+                            <th>Percentage Chance</th>
+                        </tr>
+                    </thead>
+                    <tbody id="intervalTableBody"><tr><td>...between 12.50% and 15.00%</td><td>0.00</td></tr><tr><td>...between 10.00% and 12.50%</td><td>0.00</td></tr><tr><td>...between 7.50% and 10.00%</td><td>0.00</td></tr><tr><td>...between 6.25% and 7.50%</td><td>0.00</td></tr><tr><td>...between 5.00% and 6.25%</td><td>15.26</td></tr><tr><td>...between 3.75% and 5.00%</td><td>84.74</td></tr><tr><td>...between 2.50% and 3.75%</td><td>0.00</td></tr><tr><td>...between 0.00% and 2.50%</td><td>0.00</td></tr><tr><td>...between -2.50% and 0.00%</td><td>0.00</td></tr><tr><td>...between -5.00% and -2.50%</td><td>0.00</td></tr></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <!-- Mean Value Slider -->
+            <div class="slider-container">
+                <label for="mean">What do you expect the rate of inflation to be over the next twelve months?</label>
+                <input type="range" min="-4.6" max="14.6" step="0.01" id="mean" value="5">
+                <span id="meanValue">5.00 %</span>
+            </div>
+            
+            <!-- Uncertainty Slider -->
+            <div class="slider-container">
+                <label for="variance">How uncertain are you about the rate you have just chosen?</label>
+                <input type="range" min="0.001" max="1" step="0.001" id="variance" value="0.001">
+                <div class="slider-labels-bottom">
+                    <span>More certain</span>
+                    <span>More uncertain</span>
+                </div>
+                <span id="varianceValue">0.0000</span>
+            </div>
+            
+            <!-- Table Toggle Control -->
+            <div class="slider-container">
+                <select id="toggleDropdown">
+                    <option value="show">Show Table</option>
+                    <option value="hide">Hide Table</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize variables
+            var min = -5;  // Updated min value
+            var max = 15;
+            var av = (min + max) / 2;
+            
+            // Add small buffers to prevent numerical issues
+            var minCC = min + 0.0000000001;
+            var maxCC = max - 0.0000000001;
+            
+            // Adjust slider ranges with 2% buffer from edges
+            var adjustedMin = min + 0.02 * (max - min);
+            var adjustedMax = max - 0.02 * (max - min);
+            
+            // Add plot margins
+            var buffer = 0.01 * (max - min);
+            var plotMin = min - buffer;
+            var plotMax = max + buffer;
+
+            // Get DOM elements
+            var meanSlider = document.getElementById('mean');
+            var varianceSlider = document.getElementById('variance');
+            var meanValue = document.getElementById('meanValue');
+            var varianceValue = document.getElementById('varianceValue');
+            var plotDiv = document.getElementById('plot');
+
+            // Calculate maximum possible variance for given mean
+            function calculateMaxVariance(mean) {
+                var maxVariance;
+                if (mean > min && mean < max) {
+                    if (mean > min && max > -min + 2 * mean) {
+                        maxVariance = ((max * Math.pow(min, 2) - 2 * max * min * mean - Math.pow(min, 2) * mean + 
+                                    max * Math.pow(mean, 2) + 2 * min * Math.pow(mean, 2) - Math.pow(mean, 3)) / 
+                                    (max - 2 * min + mean));
+                    } else if ((mean > min && max == -min + 2 * mean) || 
+                            (mean > min && mean < max && max < -min + 2 * mean)) {
+                        maxVariance = ((-Math.pow(max, 2) * min + Math.pow(max, 2) * mean + 
+                                    2 * max * min * mean - 2 * max * Math.pow(mean, 2) - 
+                                    min * Math.pow(mean, 2) + Math.pow(mean, 3)) / 
+                                    (2 * max - min - mean));
+                    }
+                } else {
+                    maxVariance = 0;
+                }
+                return maxVariance * 0.98;
+            }
+
+            // Update plot and table based on slider values
+            function updatePlot() {
+                // Get current values from sliders
+                var mean = parseFloat(meanSlider.value);
+                var varianceSliderValue = parseFloat(varianceSlider.value);
+                
+                // Calculate actual variance based on maximum possible variance
+                var maxVariance = calculateMaxVariance(mean);
+                var variance = Math.pow(varianceSliderValue, 2) * maxVariance;
+
+                if (isNaN(variance) || variance < 0) variance = 0;
+
+                // Calculate beta distribution parameters
+                var alpha = ((min - mean) * (min * max - min * mean - max * mean + Math.pow(mean, 2) + variance)) / 
+                        (variance * (max - min));
+                var beta = -((max - mean) * (min * max - min * mean - max * mean + Math.pow(mean, 2) + variance)) / 
+                        (variance * (max - min));
+
+                // Generate points for plotting
+                var x = [];
+                var y = [];
+                var dx = 0.01;
+
+                for (var i = plotMin; i <= plotMax; i += dx) {
+                    x.push(i);
+                    y.push(jStat.beta.pdf((i - min) / (max - min), alpha, beta) / (max - min));
+                }
+
+                // Plot configuration
+                var trace = {
+                    x: x,
+                    y: y,
+                    type: 'line'
+                };
+
+                // Update layout configuration in the initial plot setup
+                var layout = {
+                    yaxis: { showgrid: false, showticklabels: false },
+                    xaxis: {
+                        title: {
+                            text: 'Inflation (in percent)',
+                            font: { size: 12 }
+                        },
+                        tickfont: { size: 14 },
+                        showticklabels: true,
+                        showgrid: true,
+                        fixedrange: true
+                    },
+                    showlegend: false,
+                    hovermode: false,
+                    margin: { t: 20, l: 30, r: 30, b: 65 },
+                    width: 548,  // Container width (550px) minus borders (2 * 0.5px)
+                    height: 398, // Container height (400px) minus borders (2 * 0.5px)
+                    autosize: false
+                };
+
+                var config = {
+                    displayModeBar: false,
+                    staticPlot: true,
+                    responsive: true
+                };
+
+                // Create plot
+                Plotly.newPlot(plotDiv, [trace], layout, config);
+                
+                // Update displayed values
+                meanValue.innerHTML = mean.toFixed(2) + " %";
+                varianceValue.innerHTML = variance.toFixed(4);
+
+                // Update probability table
+                updateTable(alpha, beta, x, y);
+            }
+
+            // Function to update the probability table with calculated intervals
+            function updateTable(alpha, beta, x, y) {
+                // Get reference to table body and clear existing content
+                var intervalTableBody = document.getElementById('intervalTableBody');
+                intervalTableBody.innerHTML = '';
+
+                // Define intervals for probability calculations
+                // Divides the range into 10 intervals of varying sizes
+                // Each interval is calculated as a fraction of the total range (max-min)
+                var intervals = [
+                    [max - 2 * (max - min) / 16, maxCC],                    // Highest interval
+                    [max - 4 * (max - min) / 16, max - 2 * (max - min) / 16],  
+                    [max - 6 * (max - min) / 16, max - 4 * (max - min) / 16],
+                    [max - 7 * (max - min) / 16, max - 6 * (max - min) / 16],
+                    [max - 8 * (max - min) / 16, max - 7 * (max - min) / 16],
+                    [max - 9 * (max - min) / 16, max - 8 * (max - min) / 16],
+                    [max - 10 * (max - min) / 16, max - 9 * (max - min) / 16],
+                    [max - 12 * (max - min) / 16, max - 10 * (max - min) / 16],
+                    [max - 14 * (max - min) / 16, max - 12 * (max - min) / 16],
+                    [minCC, max - 14 * (max - min) / 16]                    // Lowest interval
+                ];
+
+                // Initialize variables for percentage calculations
+                var totalPercentage = 0;         // Tracks total probability mass
+                var percentages = [];            // Stores individual interval probabilities
+                var rows = [];                   // Stores HTML for table rows
+                var maxPercentage = 0;          // Tracks highest probability
+                var maxIndex = -1;              // Index of interval with highest probability
+
+                // Calculate probability for each interval
+                intervals.forEach(function(interval, index) {
+                    var lower = interval[0];     // Lower bound of interval
+                    var upper = interval[1];     // Upper bound of interval
+                    
+                    // Calculate probability mass in this interval
+                    var percentage = integratePDF(lower, upper, alpha, beta, x, y);
+                    percentages.push(percentage);
+
+                    // Track interval with highest probability
+                    if (percentage > maxPercentage) {
+                        maxPercentage = percentage;
+                        maxIndex = index;
+                    }
+
+                    // Create table row with interval bounds and probability
+                    var row = "<tr>" +
+                        "<td>...between " + lower.toFixed(2) + "% and " + upper.toFixed(2) + "%</td>" +
+                        "<td>" + percentage.toFixed(2) + "</td>" +
+                        "</tr>";
+                    rows.push(row);
+                    totalPercentage += percentage;
+                });
+
+                // Adjust probabilities if they don't sum to 100%
+                if (totalPercentage.toFixed(2) !== "100.00") {
+                    var difference = 100 - totalPercentage;
+                    percentages[maxIndex] += difference;  // Add remainder to highest probability interval
+                    
+                    // Update row for adjusted interval
+                    rows[maxIndex] = "<tr>" +
+                        "<td>...between " + intervals[maxIndex][0].toFixed(2) + "% and " + 
+                        intervals[maxIndex][1].toFixed(2) + "%</td>" +
+                        "<td>" + percentages[maxIndex].toFixed(2) + "</td>" +
+                        "</tr>";
+                }
+
+                // Add all rows to table
+                rows.forEach(function(row) {
+                    intervalTableBody.innerHTML += row;
+                });
+            }
+
+            // Helper function to integrate probability density function between bounds
+            function integratePDF(lower, upper, alpha, beta, x, y) {
+                var total = 0;
+                var dx = 0.01;  // Integration step size
+                
+                // Numerical integration using rectangle method
+                for (var i = 0; i < x.length; i++) {
+                    if (x[i] >= lower && x[i] <= upper) {
+                        total += y[i] * dx;
+                    }
+                }
+                return total * 100;  // Convert to percentage
+            }
+
+            // Function to handle showing/hiding the probability table
+            function handleTableOptionChange() {
+                var tableContainer = document.getElementById('tableContainer');
+                var mainContainer = document.getElementById('mainContainer');
+                var toggleDropdown = document.getElementById('toggleDropdown');
+
+                // Toggle table visibility and adjust layout
+                if (toggleDropdown.value === 'show') {
+                    tableContainer.style.display = 'flex';
+                    mainContainer.classList.remove('centered');
+                } else {
+                    tableContainer.style.display = 'none';
+                    mainContainer.classList.add('centered');
+                }
+            }
+
+            // Add event listeners for real-time updates when sliders change
+            meanSlider.addEventListener('input', updatePlot);
+            varianceSlider.addEventListener('input', updatePlot);
+            // Add event listener for table visibility toggle
+            document.getElementById('toggleDropdown').addEventListener('change', handleTableOptionChange);
+            
+            // Set initial slider values and ranges
+            meanSlider.setAttribute('min', adjustedMin);     // Set minimum value with buffer
+            meanSlider.setAttribute('max', adjustedMax);     // Set maximum value with buffer 
+            meanSlider.setAttribute('value', av);            // Set initial value to average
+
+            // Initial plot render
+            updatePlot();
+        });
+    </script>
+
+<svg id="js-plotly-tester" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; left: -10000px; top: -10000px; width: 9000px; height: 9000px; z-index: 1;"><path class="js-reference-point" d="M0,0H1V1H0Z" style="stroke-width: 0; fill: black;"></path></svg></body></html>
