@@ -41,6 +41,9 @@ Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): ["Making the Impli
 ::: {style="flex: 1; padding-left: 20px; margin-top: -34px;"}
 ## Working Papers
 
+["Tricked into trouble: Deception, threat, and coercion in exploitative labor relations"](http://cris.maastrichtuniversity.nl/ws/portalfiles/portal/276159447/RM25007.pdf), with Max Schmitt, Gewei Cao and Hannes Rusch
+
+
 ["Debt Aversion: Theory and Measurement"](https://arxiv.org/pdf/2207.07538.pdf), with [David Albrecht](https://da-lbrecht.github.io/){.black-link}. [ [Replication Package] ](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
 
 
