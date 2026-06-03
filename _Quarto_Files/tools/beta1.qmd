@@ -1,0 +1,747 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    page-layout: custom
+    embed-resources: false
+---
+
+```{=html}
+<style>
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#quarto-header,
+#title-block-header,
+.quarto-title-block,
+.page-navigation,
+footer.footer {
+    display: none !important;
+}
+
+main.content,
+main.content > section {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.inflation-root {
+    width: 100%;
+    max-width: 1015px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inflation-root * {
+    box-sizing: border-box;
+}
+
+.desktop-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.view-toggle {
+    display: inline-flex;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.view-toggle button {
+    border: none;
+    background: transparent;
+    padding: 9px 14px;
+    font-size: 12.25px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.view-toggle button.is-selected {
+    background: white;
+}
+
+.desktop-layout {
+    display: flex;
+    gap: 13px;
+    align-items: stretch;
+    margin-bottom: 13px;
+}
+
+.desktop-layout.distribution-only .desktop-table-card {
+    display: none;
+}
+
+.desktop-layout.distribution-only .desktop-plot-card {
+    flex: 1 1 100%;
+}
+
+.desktop-layout.split-view .desktop-plot-card {
+    flex: 1.65;
+}
+
+.desktop-layout.split-view .desktop-table-card {
+    flex: 1;
+    display: block;
+}
+
+.desktop-card,
+.mobile-card {
+    background-color: white;
+    border: 0.5px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.desktop-card-header {
+    padding: 9px 11px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f7f7f7;
+    font-size: 12.25px;
+    font-weight: 700;
+    color: #333;
+}
+
+.desktop-card-body {
+    padding: 9px;
+}
+
+.desktop-plot-container {
+    width: 100%;
+    height: 338px;
+}
+
+.desktop-table-container {
+    width: 100%;
+}
+
+.mobile-card {
+    display: none;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.viz-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    background: #f7f7f7;
+}
+
+.viz-tab {
+    flex: 1;
+    padding: 9px 10px;
+    font-size: 11.25px;
+    font-weight: bold;
+    color: #333;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.viz-tab.is-selected {
+    background: white;
+}
+
+.viz-panel {
+    display: none;
+    padding: 8px;
+}
+
+.viz-panel.is-selected {
+    display: block;
+}
+
+.mobile-plot-container {
+    width: 100%;
+    height: 207px;
+}
+
+.mobile-table-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.switch-hint {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    line-height: 1.25;
+}
+
+.switch-link {
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 4px;
+    color: #0a66c2;
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 4px;
+    gap: 0;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    margin-bottom: 13px;
+    padding: 0 2px;
+}
+
+.slider-container label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.28;
+    text-align: left;
+}
+
+.slider-container input[type="range"] {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    display: block;
+}
+
+.slider-container span.value-display {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.slider-labels-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 560px;
+    margin-top: 5px;
+}
+
+.slider-labels-bottom span {
+    font-size: 11.25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 11.25px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 7.5px 6.5px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#varianceValue {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    html,
+    body {
+        overflow: auto;
+    }
+
+    .inflation-root {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .desktop-controls,
+    .desktop-layout {
+        display: none;
+    }
+
+    .mobile-card {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    .controls-container {
+        margin-top: 2px;
+    }
+
+    .slider-container {
+        max-width: 100%;
+        margin-bottom: 12px;
+        padding: 0;
+    }
+
+    .slider-container label {
+        font-size: 12.25px;
+        line-height: 1.2;
+        margin-bottom: 4px;
+    }
+
+    .slider-container input[type="range"],
+    .slider-labels-bottom {
+        width: 88%;
+        max-width: 420px;
+    }
+
+    .slider-container span.value-display {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+    .slider-labels-bottom {
+        margin-top: 4px;
+    }
+
+    .slider-labels-bottom span,
+    th,
+    td {
+        font-size: 11px;
+    }
+
+    th,
+    td {
+        padding: 7px 5px;
+    }
+}
+</style>
+
+<div class="inflation-root">
+    <div class="desktop-controls" id="desktopControls">
+        <div class="view-toggle" aria-label="Visualization view">
+            <button type="button" class="is-selected" id="splitViewBtn">Distribution + table</button>
+            <button type="button" id="distributionOnlyBtn">Distribution only</button>
+        </div>
+    </div>
+
+    <div class="desktop-layout split-view" id="desktopLayout">
+        <div class="desktop-card desktop-plot-card">
+            <div class="desktop-card-header">Distribution</div>
+            <div class="desktop-card-body">
+                <div id="desktopPlot" class="desktop-plot-container"></div>
+            </div>
+        </div>
+
+        <div class="desktop-card desktop-table-card">
+            <div class="desktop-card-header">Interval probabilities</div>
+            <div class="desktop-card-body">
+                <div class="desktop-table-container">
+                    <table id="desktopIntervalTable">
+                        <thead>
+                            <tr>
+                                <th>Inflation interval</th>
+                                <th>Chance (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="desktopIntervalTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-card" id="mobileCard">
+        <div class="viz-tabs">
+            <button type="button" class="viz-tab is-selected" id="graphTab">Graph</button>
+            <button type="button" class="viz-tab" id="tableTab">Table</button>
+        </div>
+
+        <div class="viz-panel is-selected" id="graphPanel">
+            <div id="mobilePlot" class="mobile-plot-container"></div>
+            <div class="switch-hint">
+                Need exact interval probabilities?
+                <button type="button" class="switch-link" id="toTableLink">Go to table</button>
+            </div>
+        </div>
+
+        <div class="viz-panel" id="tablePanel">
+            <div id="mobileTableContainer" class="mobile-table-container">
+                <table id="mobileIntervalTable">
+                    <thead>
+                        <tr>
+                            <th>Inflation interval</th>
+                            <th>Chance (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="mobileIntervalTableBody"></tbody>
+                </table>
+            </div>
+            <div class="switch-hint">
+                Prefer the visual distribution?
+                <button type="button" class="switch-link" id="toGraphLink">Go to graph</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls-container">
+        <div class="slider-container">
+            <label for="mean">What do you expect the rate of inflation to be over the next twelve months?</label>
+            <input type="range" step="0.01" id="mean">
+            <span id="meanValue" class="value-display"></span>
+        </div>
+
+        <div class="slider-container">
+            <label for="variance">How uncertain are you about the rate you have just chosen?</label>
+            <input type="range" min="0.001" max="1" step="0.001" id="variance" value="0.001">
+            <div class="slider-labels-bottom">
+                <span>More certain</span>
+                <span>More uncertain</span>
+            </div>
+            <span id="varianceValue">0.001</span>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.9.4/jstat.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var min = -5.00;
+    var max = 15.00;
+    var av = (min + max) / 2;
+    var minCC = min + 0.0000000001;
+    var maxCC = max - 0.0000000001;
+
+    var adjustedMin = min + 0.02 * (max - min);
+    var adjustedMax = max - 0.02 * (max - min);
+
+    var buffer = 0.01 * (max - min);
+    var plotMin = min - buffer;
+    var plotMax = max + buffer;
+
+    var meanSlider = document.getElementById('mean');
+    var varianceSlider = document.getElementById('variance');
+    var meanValue = document.getElementById('meanValue');
+    var varianceValue = document.getElementById('varianceValue');
+
+    var desktopPlotDiv = document.getElementById('desktopPlot');
+    var mobilePlotDiv = document.getElementById('mobilePlot');
+
+    var desktopIntervalTableBody = document.getElementById('desktopIntervalTableBody');
+    var mobileIntervalTableBody = document.getElementById('mobileIntervalTableBody');
+
+    var graphTab = document.getElementById('graphTab');
+    var tableTab = document.getElementById('tableTab');
+    var graphPanel = document.getElementById('graphPanel');
+    var tablePanel = document.getElementById('tablePanel');
+    var toTableLink = document.getElementById('toTableLink');
+    var toGraphLink = document.getElementById('toGraphLink');
+
+    var desktopLayout = document.getElementById('desktopLayout');
+    var splitViewBtn = document.getElementById('splitViewBtn');
+    var distributionOnlyBtn = document.getElementById('distributionOnlyBtn');
+
+    meanSlider.setAttribute('min', adjustedMin);
+    meanSlider.setAttribute('max', adjustedMax);
+    meanSlider.setAttribute('value', av);
+    meanValue.innerHTML = formatNumber(av, 2) + ' %';
+
+    function isMobileView() {
+        return window.innerWidth <= 768;
+    }
+
+    function getIntervals() {
+        return [
+            [max - 2 * (max - min) / 16, maxCC],
+            [max - 4 * (max - min) / 16, max - 2 * (max - min) / 16],
+            [max - 6 * (max - min) / 16, max - 4 * (max - min) / 16],
+            [max - 7 * (max - min) / 16, max - 6 * (max - min) / 16],
+            [max - 8 * (max - min) / 16, max - 7 * (max - min) / 16],
+            [max - 9 * (max - min) / 16, max - 8 * (max - min) / 16],
+            [max - 10 * (max - min) / 16, max - 9 * (max - min) / 16],
+            [max - 12 * (max - min) / 16, max - 10 * (max - min) / 16],
+            [max - 14 * (max - min) / 16, max - 12 * (max - min) / 16],
+            [minCC, max - 14 * (max - min) / 16]
+        ];
+    }
+
+    function setDesktopView(mode) {
+        if (mode === 'distributionOnly') {
+            desktopLayout.classList.remove('split-view');
+            desktopLayout.classList.add('distribution-only');
+            splitViewBtn.classList.remove('is-selected');
+            distributionOnlyBtn.classList.add('is-selected');
+        } else {
+            desktopLayout.classList.remove('distribution-only');
+            desktopLayout.classList.add('split-view');
+            distributionOnlyBtn.classList.remove('is-selected');
+            splitViewBtn.classList.add('is-selected');
+        }
+
+        setTimeout(function() {
+            if (window.Plotly && !isMobileView()) {
+                Plotly.Plots.resize(desktopPlotDiv);
+            }
+        }, 60);
+    }
+
+    function switchMobileTab(tabName) {
+        if (tabName === 'graph') {
+            graphTab.classList.add('is-selected');
+            tableTab.classList.remove('is-selected');
+            graphPanel.classList.add('is-selected');
+            tablePanel.classList.remove('is-selected');
+
+            setTimeout(function() {
+                if (window.Plotly && isMobileView()) {
+                    Plotly.Plots.resize(mobilePlotDiv);
+                }
+            }, 50);
+        } else {
+            tableTab.classList.add('is-selected');
+            graphTab.classList.remove('is-selected');
+            tablePanel.classList.add('is-selected');
+            graphPanel.classList.remove('is-selected');
+        }
+    }
+
+    function formatNumber(value, decimals) {
+        return Number(value).toFixed(decimals);
+    }
+
+    function formatPercent(value, decimals) {
+        return formatNumber(value, decimals) + '%';
+    }
+
+    function buildXAxisTicks() {
+        var span = max - min;
+        var step = span <= 8 ? 1 : 5;
+        var ticks = [];
+        var start = Math.ceil(min / step) * step;
+        for (var tick = start; tick <= max + 0.000001; tick += step) {
+            ticks.push(parseFloat(tick.toFixed(6)));
+        }
+        if (ticks.length === 0 || ticks[0] > min) ticks.unshift(min);
+        if (ticks[ticks.length - 1] < max) ticks.push(max);
+        return ticks;
+    }
+
+    function formatAxisTick(value) {
+        return Math.abs(value - Math.round(value)) < 0.000001 ? formatNumber(value, 0) : formatNumber(value, 1);
+    }
+
+    function calculateMaxVariance(mean) {
+        var maxVariance;
+        if (mean > min && mean < max) {
+            if (mean > min && max > -min + 2 * mean) {
+                maxVariance = ((max * Math.pow(min, 2) - 2 * max * min * mean - Math.pow(min, 2) * mean + max * Math.pow(mean, 2) + 2 * min * Math.pow(mean, 2) - Math.pow(mean, 3)) / (max - 2 * min + mean));
+            } else if ((mean > min && max === -min + 2 * mean) || (mean > min && mean < max && max < -min + 2 * mean)) {
+                maxVariance = ((-Math.pow(max, 2) * min + Math.pow(max, 2) * mean + 2 * max * min * mean - 2 * max * Math.pow(mean, 2) - min * Math.pow(mean, 2) + Math.pow(mean, 3)) / (2 * max - min - mean));
+            }
+        } else {
+            maxVariance = 0;
+        }
+        return maxVariance * 0.98;
+    }
+
+    function updateTable(tableBody, alpha, beta, x, y) {
+        tableBody.innerHTML = '';
+
+        var intervals = getIntervals();
+        var totalPercentage = 0;
+        var percentages = [];
+        var rows = [];
+        var maxPercentage = 0;
+        var maxIndex = -1;
+
+        intervals.forEach(function(interval, index) {
+            var lower = interval[0];
+            var upper = interval[1];
+            var percentage = integratePDF(lower, upper, alpha, beta, x, y);
+            percentages.push(percentage);
+
+            if (percentage > maxPercentage) {
+                maxPercentage = percentage;
+                maxIndex = index;
+            }
+
+            var displayLower = index === intervals.length - 1 ? min : lower;
+            var displayUpper = index === 0 ? max : upper;
+
+            var row = '<tr>' +
+                '<td>' + formatPercent(displayLower, 2) + ' to ' + formatPercent(displayUpper, 2) + '</td>' +
+                '<td>' + formatNumber(percentage, 2) + '</td>' +
+                '</tr>';
+            rows.push(row);
+            totalPercentage += percentage;
+        });
+
+        if (totalPercentage.toFixed(2) !== '100.00' && maxIndex >= 0) {
+            var difference = 100 - totalPercentage;
+            percentages[maxIndex] += difference;
+
+            var correctedLower = maxIndex === intervals.length - 1 ? min : intervals[maxIndex][0];
+            var correctedUpper = maxIndex === 0 ? max : intervals[maxIndex][1];
+
+            rows[maxIndex] = '<tr>' +
+                '<td>' + formatPercent(correctedLower, 2) + ' to ' + formatPercent(correctedUpper, 2) + '</td>' +
+                '<td>' + formatNumber(percentages[maxIndex], 2) + '</td>' +
+                '</tr>';
+        }
+
+        rows.forEach(function(row) {
+            tableBody.innerHTML += row;
+        });
+    }
+
+    function integratePDF(lower, upper, alpha, beta, x, y) {
+        var total = 0;
+        var dx = 0.01;
+        for (var i = 0; i < x.length; i++) {
+            if (x[i] >= lower && x[i] <= upper) {
+                total += y[i] * dx;
+            }
+        }
+        return total * 100;
+    }
+
+    function plotInto(targetDiv, x, y) {
+        var isMobile = targetDiv === mobilePlotDiv;
+        var ticks = buildXAxisTicks();
+
+        var layout = {
+            autosize: true,
+            yaxis: { showgrid: false, showticklabels: false },
+            xaxis: {
+                title: {
+                    text: 'Inflation (in percent)',
+                    font: { size: isMobile ? 10 : 11 }
+                },
+                tickfont: { size: isMobile ? 11 : 12 },
+                showticklabels: true,
+                tickvals: ticks,
+                ticktext: ticks.map(formatAxisTick),
+                showgrid: true,
+                fixedrange: true
+            },
+            showlegend: false,
+            hovermode: false,
+            margin: isMobile
+                ? { t: 4, l: 12, r: 12, b: 34 }
+                : { t: 6, l: 16, r: 16, b: 40 }
+        };
+
+        var config = {
+            displayModeBar: false,
+            staticPlot: true,
+            responsive: true
+        };
+
+        Plotly.newPlot(targetDiv, [{
+            x: x,
+            y: y,
+            type: 'scatter',
+            mode: 'lines'
+        }], layout, config);
+    }
+
+    function updatePlot() {
+        var mean = parseFloat(meanSlider.value);
+        var varianceSliderValue = parseFloat(varianceSlider.value);
+        var maxVariance = calculateMaxVariance(mean);
+        var variance = Math.pow(varianceSliderValue, 2) * maxVariance;
+
+        if (isNaN(variance) || variance < 0) variance = 0;
+
+        var alpha = ((min - mean) * (min * max - min * mean - max * mean + Math.pow(mean, 2) + variance)) / (variance * (max - min));
+        var beta = -((max - mean) * (min * max - min * mean - max * mean + Math.pow(mean, 2) + variance)) / (variance * (max - min));
+
+        var x = [];
+        var y = [];
+        var dx = 0.01;
+
+        for (var i = plotMin; i <= plotMax; i += dx) {
+            x.push(i);
+            y.push(jStat.beta.pdf((i - min) / (max - min), alpha, beta) / (max - min));
+        }
+
+        plotInto(desktopPlotDiv, x, y);
+        plotInto(mobilePlotDiv, x, y);
+
+        meanValue.innerHTML = formatNumber(mean, 2) + ' %';
+        varianceValue.innerHTML = formatNumber(variance, 4);
+
+        updateTable(desktopIntervalTableBody, alpha, beta, x, y);
+        updateTable(mobileIntervalTableBody, alpha, beta, x, y);
+    }
+
+    graphTab.addEventListener('click', function() {
+        switchMobileTab('graph');
+    });
+
+    tableTab.addEventListener('click', function() {
+        switchMobileTab('table');
+    });
+
+    toTableLink.addEventListener('click', function() {
+        switchMobileTab('table');
+    });
+
+    toGraphLink.addEventListener('click', function() {
+        switchMobileTab('graph');
+    });
+
+    splitViewBtn.addEventListener('click', function() {
+        setDesktopView('split');
+    });
+
+    distributionOnlyBtn.addEventListener('click', function() {
+        setDesktopView('distributionOnly');
+    });
+
+    meanSlider.addEventListener('input', updatePlot);
+    varianceSlider.addEventListener('input', updatePlot);
+
+    window.addEventListener('resize', function() {
+        if (window.Plotly) {
+            if (isMobileView()) {
+                Plotly.Plots.resize(mobilePlotDiv);
+            } else {
+                Plotly.Plots.resize(desktopPlotDiv);
+            }
+        }
+    });
+
+    updatePlot();
+    setDesktopView('split');
+    switchMobileTab('graph');
+});
+</script>
+```

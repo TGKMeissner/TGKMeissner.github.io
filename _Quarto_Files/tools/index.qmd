@@ -18,5 +18,15 @@ Here you can find our method to elicit parameteric (beta) belief distributions, 
 
 
 ::: {.html}
-<iframe src="beta1.html" style="width: 1100px; height: 780px; border: none; transform: scale(0.9); transform-origin: 0 0;margin-left: -99px;" scrolling="no"></iframe>
+<div id="beta-belief-tool-container"></div>
+<script>
+  const betaBeliefTool = document.createElement("iframe");
+  betaBeliefTool.id = "beta-belief-tool";
+  betaBeliefTool.src = "beta" + "1.html";
+  betaBeliefTool.style.width = "100%";
+  betaBeliefTool.style.height = "720px";
+  betaBeliefTool.style.border = "none";
+  betaBeliefTool.setAttribute("scrolling", "no");
+  document.getElementById("beta-belief-tool-container").appendChild(betaBeliefTool);
+</script>
 :::
