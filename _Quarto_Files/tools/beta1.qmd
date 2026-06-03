@@ -219,7 +219,7 @@ main.content > section {
     font-weight: normal;
     color: #333;
     line-height: 1.28;
-    text-align: left;
+    text-align: center;
 }
 
 .slider-container input[type="range"] {
