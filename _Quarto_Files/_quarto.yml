@@ -4,6 +4,7 @@ project:
   execute-dir: project
   #title: "tmeissner.com"
   resources:
+    - "research/asymmetric-consumption-responses.pdf"
     - "tools/beta.html"
     - "tools/beta.qsf"
 
