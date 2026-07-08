@@ -3,3 +3,35 @@
 h1, h2, h3, h4, h5, h6 {
     color: rgba(133,114,81,1);
 }
+
+.research-columns {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: -34px;
+}
+
+.research-column {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.research-column p {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+    .research-columns {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 0;
+    }
+
+    .research-column {
+        width: 100%;
+    }
+
+    .research-column h2 {
+        margin-top: 0;
+    }
+}

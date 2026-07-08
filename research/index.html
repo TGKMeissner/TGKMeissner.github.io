@@ -5797,7 +5797,34 @@ var n,i=t("./lib/build-log"),a=t("./lib/epsilon"),o=t("./lib/intersecter"),s=t("
 <style type="text/css">
 h1, h2, h3, h4, h5, h6 {
 color: rgba(133,114,81,1);
-}</style>
+}
+.research-columns {
+display: flex;
+gap: 40px;
+align-items: flex-start;
+margin-top: -34px;
+}
+.research-column {
+flex: 1 1 0;
+min-width: 0;
+}
+.research-column p {
+overflow-wrap: anywhere;
+}
+@media (max-width: 768px) {
+.research-columns {
+flex-direction: column;
+gap: 1.5rem;
+margin-top: 0;
+}
+.research-column {
+width: 100%;
+}
+.research-column h2 {
+margin-top: 0;
+}
+}
+</style>
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -5866,9 +5893,9 @@ color: rgba(133,114,81,1);
 </header>
 
 
-<div style="display: flex; justify-content: space-between;">
+<div class="research-columns">
 <!-- Publications Column -->
-<section id="publications" class="level2" style="flex: 1; padding-right: 20px; margin-top: -34px;">
+<section id="publications" class="level2 research-column">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <p><a href="https://www.boschrosa.com/" class="black-link">Bosch-Rosa, C.</a>, <a href="https://www.pgonzalezfernandez.com/" class="black-link">Gonzalez-Fernandez, P.</a> and Meissner, T. (2025)<a href="https://doi.org/10.1016/j.jebo.2025.106947">“Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations”</a>, <strong>Journal of Economic Behavior and Organization</strong>: 233, 106947</p>
 <p>Flagner S., Meissner, T., Künn, S. Eichholtz, P., Kok, N., Kramer, R., van Marken-Lichtenbelt, W., Ly, C. and Guy Plasqui (2025)<a href="https://doi.org/10.1016/j.indenv.2025.100074">“The impact of indoor carbon dioxide on human cognition, behavior and metabolic health”</a> <strong>Indoor Environments</strong>: 100074</p>
@@ -5885,7 +5912,7 @@ color: rgba(133,114,81,1);
 <p>Schleich, J., Gassmann, X., Faure, C. and Meissner, T (2016): <a href="https://www.sciencedirect.com/science/article/pii/S0301421516304050">“Making the Implicit Explicit: A Look Inside Implicit Discount Rates.”</a> <strong>Energy Policy</strong>: 97, 321-331.</p>
 </section>
 <!-- Working Papers Column -->
-<section id="working-papers" class="level2" style="flex: 1; padding-left: 20px; margin-top: -34px;">
+<section id="working-papers" class="level2 research-column">
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <p><a href="asymmetric-consumption-responses.pdf">“Different Consumption Responses to Equivalent Changes in the Real Interest Rate”</a>, with <a href="https://www.boschrosa.com/" class="black-link">Bosch-Rosa, C.</a>, <a href="https://www.tu.berlin/en/macroeconomics/team/prof-dr-frank-heinemann" class="black-link">Frank Heinemann</a> and <a href="https://sites.google.com/site/bmassenot/" class="black-link">Baptiste Massenot</a></p>
 <p><a href="https://cris.maastrichtuniversity.nl/ws/portalfiles/portal/312285991/RM25007_v2.pdf">“Tricked into trouble: Deception, threat, and coercion in exploitative labor relations”</a>, with Max Schmitt, Gewei Cao and Hannes Rusch</p>
