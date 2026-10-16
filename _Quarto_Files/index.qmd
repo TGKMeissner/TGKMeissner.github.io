@@ -31,7 +31,7 @@ My primary research interest lies in the fields of experimental and behavioral e
 
 Additionally, I work on belief elicitation, including a [new method](/tools) for eliciting parametric belief distributions, and have recently begun exploring the darker aspects of human behavior, such as exploitation.  
 
-Together with Peter Werner, I co-organize the annual [M-BEES and M-BEPS](https://sites.google.com/view/mbees-mbeps/home) symposia, which bring together researchers and practitioners in experimental and behavioral economics.  
+Together with Peter Werner, I co-organize the annual [M-BEES and M-BEPS](https://m-bees.nl) symposia, which bring together researchers and practitioners in experimental and behavioral economics.  
 
 I am also principal investigator and co-founder of the [Dutch Business Panel](https://dutchbusinesspanel.nl/), a panel for studying the decisions and expectations of Dutch firms.
 
