@@ -9,7 +9,7 @@ title-block-banner: false
 ::: {.research-column}
 ## Publications
 
-[Albrecht, D.](https://da-lbrecht.github.io/){.black-link} and Meissner, T. (2026) ["Debt Aversion: Theory and Measurement"](http://doi.org/10.1111/iere.70122), **International Economic Review**: iere.70122. [Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
+[Albrecht, D.](https://da-lbrecht.github.io/){.black-link} and Meissner, T. (2026) ["Debt Aversion: Theory and Measurement"](http://doi.org/10.1111/iere.70122), **International Economic Review**: 70122. [Replication Package](https://osf.io/7sm2f/?view_only=8466d18f89d1492b81baf7ec84ef12ea){.black-link}
 
 
 [Bosch-Rosa, C.](https://www.boschrosa.com/){.black-link}, [Gonzalez-Fernandez, P.](https://www.pgonzalezfernandez.com/){.black-link} and Meissner, T. (2025)["Direct Elicitation of Parametric Belief Distributions: An application to inflation expectations"](https://doi.org/10.1016/j.jebo.2025.106947), **Journal of Economic Behavior and Organization**: 233, 106947
